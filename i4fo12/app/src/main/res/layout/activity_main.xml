@@ -24,6 +24,7 @@
         android:layout_height="wrap_content"
         android:text="calculator!"
         android:textSize="60dp"
+        android:fontFamily="serif"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,6 +34,7 @@
     <TextView
         android:id="@+id/moha2"
         android:layout_width="wrap_content"
+        android:fontFamily="serif"
         android:layout_height="wrap_content"
         android:text="total"
         android:textSize="40dp"
@@ -62,6 +64,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:background="@color/design_default_color_background"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="20dp"
         android:inputType="textPersonName"
         android:text="first number"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,9 +78,12 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
+        android:background="@color/design_default_color_background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
         android:inputType="textPersonName"
         android:text="secound number"
         app:layout_constraintBottom_toBottomOf="parent"
